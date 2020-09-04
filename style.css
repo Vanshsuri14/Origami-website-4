@@ -1,0 +1,47 @@
+.header{
+  background-color: #ee00ee;
+  display: flex;  
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #eeee00;
+  
+}
+.grid{
+    margin : 50px;
+    
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+a:link{
+  color:white;
+}
+
+a:visited{
+  color:orange;
+}
+
+.item{
+  position: relative;
+
+}
+
+.item p{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+}
+.item:hover p{
+  opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.5;
+}
